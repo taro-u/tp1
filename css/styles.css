@@ -64,7 +64,7 @@ font-style: normal;
 	font-family: merriweather, serif;
 	font-weight: 400;
 	font-style: normal;
-  line-height: 1.5em;
+  line-height: 1.4em;
   margin: 50px 0 60px;
   padding: 0;
   text-align: left;
@@ -75,12 +75,12 @@ font-style: normal;
 @media (min-width: 500px) and (max-width: 1140px){
 	
 	.pinned {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 	font-family: merriweather, serif;
 	font-weight: 400;
 	font-style: normal;
-  line-height: 1.5em;
-  margin: 100px 0 120px;
+  line-height: 1.4em;
+  margin: 50px 0 60px;
   padding-right: 15%;
   text-align: left;
 }
