@@ -1,6 +1,13 @@
 /* CSS Document */
 body {
   color: #393E46;
+	font-family: merriweather, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+a{
+	color: #929AAB;
 }
 
 .container-fluid {
@@ -10,9 +17,9 @@ body {
 
 .tp1 {
   font-size: 1.5rem;
-  font-family: Merriweather, serif;
-  font-weight: 700;
-  font-style: normal;
+	font-family: merriweather, serif;
+font-weight: 700;
+font-style: normal;
   margin: 5px 0 5px 0;
   padding: 0;
 }
@@ -21,14 +28,14 @@ body {
   padding: 0 auto;
 }
 
-.Pinned {
-  font-family: Merriweather, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2.5rem;
+.pinned {
+  font-size: 1.7rem;
+	font-family: merriweather, serif;
+	font-weight: 400;
+	font-style: normal;
   line-height: 1.5em;
-  margin: 80px 0 100px;
-  padding-right: 15%;
+  margin: 100px 0 120px;
+  padding-right: 25%;
   text-align: left;
 }
 
@@ -36,9 +43,6 @@ body {
 	background: rgb(238,238,238);
 	background: linear-gradient(90deg, rgba(238,238,238,1) 30%, rgba(255,255,255,1) 85%);
   border-radius: 6px;
-  font-family: Futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: normal;
   margin-bottom: 44px;
   padding: 0;
 }
@@ -50,4 +54,30 @@ body {
 
 .content-card-images{
 	height: 280px;
+}
+
+/*mobile viewport*/
+@media (max-width: 500px){
+	
+	.tp1{
+		font-size: 1rem;
+		line-height: 1.2em;
+	}
+	
+	.pinned{
+		padding: 0;
+	}
+
+}
+
+@media (min-width: 500px) and (max-width: 1140px){
+	
+	.tp1{
+		font-size: 1rem;
+		line-height: 1.2em;
+	}
+	
+	.pinned{
+		padding-right: 15%;
+	}
 }
