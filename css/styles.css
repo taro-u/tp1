@@ -59,25 +59,29 @@ font-style: normal;
 /*mobile viewport*/
 @media (max-width: 500px){
 	
-	.tp1{
-		font-size: 1rem;
-		line-height: 1.2em;
-	}
-	
-	.pinned{
-		padding: 0;
-	}
+	.pinned {
+  font-size: 1rem;
+	font-family: merriweather, serif;
+	font-weight: 400;
+	font-style: normal;
+  line-height: 1.1em;
+  margin: 100px 0 120px;
+  padding: 0;
+  text-align: left;
+}
 
 }
 
 @media (min-width: 500px) and (max-width: 1140px){
 	
-	.tp1{
-		font-size: 1rem;
-		line-height: 1.2em;
-	}
-	
-	.pinned{
-		padding-right: 15%;
-	}
+	.pinned {
+  font-size: 1.4rem;
+	font-family: merriweather, serif;
+	font-weight: 400;
+	font-style: normal;
+  line-height: 1.5em;
+  margin: 100px 0 120px;
+  padding-right: 15%;
+  text-align: left;
+}
 }
